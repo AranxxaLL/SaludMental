@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* font-family: 'Amatic SC', cursive;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Amatic SC', cursive;
+}
+body{
+    background: linear-gradient(#3b069d, #9377c9);
+}
+a{
+    color: black;
+}
+h1{
+    font-size: 3rem;
+    color:  #18d012;
+    text-align: center;
+    text-decoration: underline wavy palegreen;
+}
+h2{
+    font-size: 2rem;
+    color:#d368e1;
+    text-align: justify;
+    border: 3px dotted  #215ecf; 
+}
+nav{
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: justify;
+    text-decoration: underline wavy rebeccapurple;
+}
+.decorado{
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    word-spacing: 20px;
+}
+.liAnsiedad{
+    font-size: 20px;
+    text-align: left;
+    text-shadow: #fc0 1px 0 10px;
+    color: hotpink;
+}
+.liEstres{
+    font-size: 20px;
+    text-align: right;
+    text-shadow: #fc0 1px 0 10px;
+    color: hotpink;
+}
+.imgIzquierda{
+    float:left;
+    border-radius: 40px;
+}
+.imgDerecha{
+    float: right;
+    border-radius: 40px;
+}
+#formulario{
+    font-size: 2rem;
+    text-align: justify;
+    color:  #d368e1;
+    text-decoration: double;
+}
+.googleFont{
+    font-family: 'Amatic SC', cursive;
+}

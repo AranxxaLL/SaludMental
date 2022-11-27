@@ -5,27 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>AnsiedadyEstres</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <title>AnsiedadyEstres</title> 
 </head>
 <body>
     <header> 
-        <img src="./Imagenes/Aquí Estamos.png" alt="Aquí" width="300" height="400">
-        <aside style="text-align: center;"> 
-            <p>10 de Octubre Día Mundial de la Salud Mental</p>
+        <img class="imgIzquierda" src="./Imagenes/Aquí Estamos.png" alt="Aquí">
+        <aside> 
+            <p class="decorado">10 de Octubre Día Mundial de la Salud Mental</p>
         </aside>   
-        <div style="color: skyblue;">
-            <div style="text-align: center;"> 
+        <div>
             <h1>Ansiedad y Estres.</h1>
-            </div>
         </div>
         <aside>
-            <p>No estas solx aquí te podemos ayudar...</p>
+            <p class="decorado">No estas solx aquí te podemos ayudar...</p>
         </aside>
-            <nav>
+        <nav>
             <ul>
- <!--           <li> 
-                    <a href="./index.html">INICIO</a>
-                </li> -->
                 <li>
                     <a href="./articulos.html"> ARTICULOS</a>
                 </li>
@@ -44,75 +40,65 @@
             <p>La ansiedad es un sentimiento de miedo, temor e inquietud. 
                 Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. 
                 Puede ser una reacción normal al estrés.</p>
-            <h3>Definidión de Estrés</h3>
+            <h2>Definidión de Estrés</h2>
             <p>En el campo de la medicina, es la respuesta del cuerpo a una presión física, mental o emocional. 
                 El estrés produce cambios químicos que elevan la presión arterial, la frecuencia cardíaca y las concentraciones de azúcar en la sangre. 
                 También suele producir sentimientos de frustración, ansiedad, enojo o depresión. Las actividades de la vida cotidiana o determinadas situaciones, como un acontecimiento traumático o una enfermedad producen estrés. Es posible que el estrés intenso o que dura mucho tiempo produzca problemas de salud física y mental. 
                 También se llama tensión emocional, tensión nerviosa y tensión psíquica. </p>
-            <div style="color: #000080;">
-                <div style="text-align: center;"> 
-                <h4>Lugar Seguro</h4>
-                </div>
-            </div>
+                <h2>Lugar Seguro</h2>
             <p>Bienvenido somos un lugar seguro donde puedes buscar apoyo si sufres de ansiedad o estres sin importar prejuicios.</p>
             <p>Por favor llena el siguiente formulario para llevar un registro y te ayudemos de manera pronto.</p>
-            <form action="" method="get">
+            <form id="formulario"action="" method="get">
                 <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name"><br></br>
+                <input type="text" id="name" name="name">
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido"><br></br>
+                <input type="text" id="apellido" name="apellido">
                 <label for="edad">Edad</label>
-                <input type="number" id="edad" edad="edad"><br></br>
+                <input type="number" id="edad" edad="edad">
                 <label for="email">email</label>
-                <input type="email" id="email" email="email"><br></br>
+                <input type="email" id="email" email="email">
                 <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" direccion="direccion"><br>
+                <input type="text" id="direccion" direccion="direccion">
                 <p>Por favor indica cual es la ayuda que buscas</p>
-                <textarea></textarea><br></br>
+                <textarea></textarea>
                 <button>Enviar</button>
-                <input type="reset"><br>
+                <input type="reset">
             </form> 
              <!--Lista desordenada-->
-             <div style="color: #4f6247;">
-                <p aling="right">Sintomas de Ansiedad</p>
-             </div>
+            <p class="decorado">Sintomas de Ansiedad</p>
                 <ul>
-                 <li>Sensación de nerviosismo, agitación o tensión</li>
-                 <li>Sensación de peligro inminente, pánico o catástrofe</li>
-                 <li>Aumento del ritmo cardíaco</li>
-                 <li>Respiración acelerada (hiperventilación)</li>
-                 <li>Sudoración</li>
-                 <li>Temblores</li>
-                 <li>Sensación de debilidad o cansancio</li>
-                 <li>Problemas para concentrarse o para pensar en otra cosa que no sea la preocupación actua</li> 
-                 <li>Tener problemas para conciliar el sueño</li>
-                 <li>Padecer problemas gastrointestinales (GI)</li>
-                 <li>Tener dificultades para controlar las preocupaciones</li>
-                 <li>Tener la necesidad de evitar las situaciones que generan ansiedad</li>
+                 <li class="liAnsiedad">Sensación de nerviosismo, agitación o tensión</li>
+                 <li class="liAnsiedad">Sensación de peligro inminente, pánico o catástrofe</li>
+                 <li class="liAnsiedad">Aumento del ritmo cardíaco</li>
+                 <li class="liAnsiedad">Respiración acelerada (hiperventilación)</li>
+                 <li class="liAnsiedad">Sudoración</li>
+                 <li class="liAnsiedad">Temblores</li>
+                 <li class="liAnsiedad">Sensación de debilidad o cansancio</li>
+                 <li class="liAnsiedad">Problemas para concentrarse o para pensar en otra cosa que no sea la preocupación actua</li> 
+                 <li class="liAnsiedad">Tener problemas para conciliar el sueño</li>
+                 <li class="liAnsiedad">Padecer problemas gastrointestinales (GI)</li>
+                 <li class="liAnsiedad">Tener dificultades para controlar las preocupaciones</li>
+                 <li class="liAnsiedad">Tener la necesidad de evitar las situaciones que generan ansiedad</li>
                 </ul>
              <!--Lista ordenada-->
-            <div style="color: #4f6247;">
-                    <p>Sintomas de Estrés.</p>
-            </div>
+                    <p class="liEstres">Sintomas de Estrés.</p>
                 <ol>
-                    <li>Dolor de cabeza</li>
-                    <li>Tensión o dolor muscular</li>
-                    <li>Dolor en el pecho</li>
-                    <li>Fatiga</li>
-                    <li>Cambio en el deseo sexual</li>
-                    <li>Malestar estomacal</li>
-                    <li>Problemas de sueño</li>
-                    <li>Problemas mesntruales</li>
-                    <li>Depresión</li>
-                    <li>Problemas de la piel</li>                    
+                    <li class="liEstres">Dolor de cabeza</li>
+                    <li class="liEstres">Tensión o dolor muscular</li>
+                    <li class="liEstres">Dolor en el pecho</li>
+                    <li class="liEstres">Fatiga</li>
+                    <li class="liEstres">Cambio en el deseo sexual</li>
+                    <li class="liEstres">Malestar estomacal</li>
+                    <li class="liEstres">Problemas de sueño</li>
+                    <li class="liEstres">Problemas mesntruales</li>
+                    <li class="liEstres">Depresión</li>
+                    <li class="liEstres">Problemas de la piel</li>                    
                 </ol>
         </section>
         <section>
-            <div> <img src="./Imagenes/problemasdesaludmental.jpg" alt="logo" width="300" height="300"></div>
-            <div style="color: aquamarine;">
-                <h5>La importancia de tomar terapia psicologica.</h5>
-            </div>
-            <p>puede ayudarte a superar bloqueos emocionales y desarrollar estrategias que permitan afrontar tu presente o futuro.
+            <div> <img class="imgDerecha"src="./Imagenes/problemasdesaludmental.jpg" alt="logo" ></div>
+                <h3>La importancia de tomar terapia psicologica.</h3>
+            <p class="decorado">puede ayudarte a superar bloqueos emocionales y desarrollar estrategias que permitan afrontar tu presente o futuro.
                 Te puede ayudar a definir metas,aclarando quien eres y que es lo que quieres, ayuda a mejorar tu calidad de vida.
                 explorar tus estados de ánimo y comportamientos en un lugar seguro.
             </p>  
