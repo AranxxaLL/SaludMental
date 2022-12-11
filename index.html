@@ -10,44 +10,59 @@
 </head>
 <body>
     <header> 
-        <img class="imgIzquierda" src="./Imagenes/Aquí Estamos.png" alt="Aquí">
-        <aside> 
-            <p class="decorado">10 de Octubre Día Mundial de la Salud Mental</p>
-        </aside>   
-        <div>
-            <h1>Ansiedad y Estres.</h1>
+        <div class="encabezado"> 
+        <img class="imgIzquierda" src="./Imagenes/Aquí Estamos.png" alt="Aquí">  
+            <h1>Ansiedad y Estres En Estudiantes Universitarios.</h1>
         </div>
-        <aside>
-            <p class="decorado">No estas solx aquí te podemos ayudar...</p>
-        </aside>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./articulos.html"> ARTICULOS</a>
-                </li>
-                <li>
-                    <a href="./quienesSomos.html"> ¿QUINES SOMOS?</a>
-                </li>
-                <li>
-                    <a href="./contacto.html"> CONTACTO</a>
-                </li>
-            </ul>
-        </nav>  
     </header>
     <main>
-        <section>
-            <h2>Definición de Ansiedad</h2>
-            <p>La ansiedad es un sentimiento de miedo, temor e inquietud. 
-                Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. 
-                Puede ser una reacción normal al estrés.</p>
-            <h2>Definidión de Estrés</h2>
-            <p>En el campo de la medicina, es la respuesta del cuerpo a una presión física, mental o emocional. 
-                El estrés produce cambios químicos que elevan la presión arterial, la frecuencia cardíaca y las concentraciones de azúcar en la sangre. 
-                También suele producir sentimientos de frustración, ansiedad, enojo o depresión. Las actividades de la vida cotidiana o determinadas situaciones, como un acontecimiento traumático o una enfermedad producen estrés. Es posible que el estrés intenso o que dura mucho tiempo produzca problemas de salud física y mental. 
-                También se llama tensión emocional, tensión nerviosa y tensión psíquica. </p>
-                <h2>Lugar Seguro</h2>
-            <p>Bienvenido somos un lugar seguro donde puedes buscar apoyo si sufres de ansiedad o estres sin importar prejuicios.</p>
-            <p>Por favor llena el siguiente formulario para llevar un registro y te ayudemos de manera pronto.</p>
+        <div>
+            <nav>
+                <ul>
+                <button class="boton1">
+                    <a href="./articulos.html" > Articulos</a> 
+                </button>
+                <button class="boton1">
+                    <a href="./quienesSomos.html" > ¿Quines Somos?</a> 
+                </button>
+                <button class="boton1">
+                    <a href="./contacto.html" > Contacto</a> 
+                </button>
+                </ul>
+            </nav>
+        </div>
+        <div class="frase">
+            <p >10 de Octubre Día Mundial de la Salud Mental</p>
+        </div>
+        <section> 
+            <div class="linea"> 
+            <table border="1">
+                <tr> 
+                    <th> 
+                        <h2 >Definición de Ansiedad</h2> 
+                    </th> 
+                    <th>
+                        <h2 >Definidión de Estrés</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="decorado">La ansiedad es un sentimiento de miedo, temor e inquietud. 
+                            Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. 
+                            Puede ser una reacción normal al estrés.</p>
+                    </td>
+                    <td>
+                        <p class="decorado">En el campo de la medicina, es la respuesta del cuerpo a una presión física, mental o emocional. 
+                            El estrés produce cambios químicos que elevan la presión arterial, la frecuencia cardíaca y las concentraciones de azúcar en la sangre. 
+                            También suele producir sentimientos de frustración, ansiedad, enojo o depresión. Las actividades de la vida cotidiana o determinadas situaciones, como un acontecimiento traumático o una enfermedad producen estrés. Es posible que el estrés intenso o que dura mucho tiempo produzca problemas de salud física y mental. 
+                            También se llama tensión emocional, tensión nerviosa y tensión psíquica. </p>
+                    </td>
+                 </tr>  
+            </table>
+            </div>
+                <h2 >Lugar Seguro</h2>
+            <p class="decorado">Bienvenido somos un lugar seguro donde puedes buscar apoyo si sufres de ansiedad o estres sin importar prejuicios.</p>
+            <p class="decorado">Por favor llena el siguiente formulario para llevar un registro y te ayudemos de manera pronto.</p>
             <form id="formulario"action="" method="get">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name">
@@ -64,25 +79,26 @@
                 <button>Enviar</button>
                 <input type="reset">
             </form> 
+            <div>
              <!--Lista desordenada-->
-            <p class="decorado">Sintomas de Ansiedad</p>
-                <ul>
-                 <li class="liAnsiedad">Sensación de nerviosismo, agitación o tensión</li>
-                 <li class="liAnsiedad">Sensación de peligro inminente, pánico o catástrofe</li>
-                 <li class="liAnsiedad">Aumento del ritmo cardíaco</li>
-                 <li class="liAnsiedad">Respiración acelerada (hiperventilación)</li>
-                 <li class="liAnsiedad">Sudoración</li>
-                 <li class="liAnsiedad">Temblores</li>
-                 <li class="liAnsiedad">Sensación de debilidad o cansancio</li>
-                 <li class="liAnsiedad">Problemas para concentrarse o para pensar en otra cosa que no sea la preocupación actua</li> 
-                 <li class="liAnsiedad">Tener problemas para conciliar el sueño</li>
-                 <li class="liAnsiedad">Padecer problemas gastrointestinales (GI)</li>
-                 <li class="liAnsiedad">Tener dificultades para controlar las preocupaciones</li>
-                 <li class="liAnsiedad">Tener la necesidad de evitar las situaciones que generan ansiedad</li>
-                </ul>
-             <!--Lista ordenada-->
-                    <p class="liEstres">Sintomas de Estrés.</p>
-                <ol>
+                <p class="liAnsiedad">Sintomas de Ansiedad</p>
+                    <ul>
+                    <li class="liAnsiedad">Sensación de nerviosismo, agitación o tensión</li>
+                    <li class="liAnsiedad">Sensación de peligro inminente, pánico o catástrofe</li>
+                    <li class="liAnsiedad">Aumento del ritmo cardíaco</li>
+                    <li class="liAnsiedad">Respiración acelerada (hiperventilación)</li>
+                    <li class="liAnsiedad">Sudoración</li>
+                    <li class="liAnsiedad">Temblores</li>
+                    <li class="liAnsiedad">Sensación de debilidad o cansancio</li>
+                    <li class="liAnsiedad">Problemas para concentrarse o para pensar en otra cosa que no sea la preocupación actua</li> 
+                    <li class="liAnsiedad">Tener problemas para conciliar el sueño</li>
+                    <li class="liAnsiedad">Padecer problemas gastrointestinales (GI)</li>
+                    <li class="liAnsiedad">Tener dificultades para controlar las preocupaciones</li>
+                    <li class="liAnsiedad">Tener la necesidad de evitar las situaciones que generan ansiedad</li>
+                    </ul>
+                    <!--Lista ordenada-->
+                <p class="liEstres">Sintomas de Estrés.</p>
+                    <ol>
                     <li class="liEstres">Dolor de cabeza</li>
                     <li class="liEstres">Tensión o dolor muscular</li>
                     <li class="liEstres">Dolor en el pecho</li>
@@ -93,16 +109,34 @@
                     <li class="liEstres">Problemas mesntruales</li>
                     <li class="liEstres">Depresión</li>
                     <li class="liEstres">Problemas de la piel</li>                    
-                </ol>
+                    </ol>
+                </div>
         </section>
         <section>
             <div> <img class="imgDerecha"src="./Imagenes/problemasdesaludmental.jpg" alt="logo" ></div>
-                <h3>La importancia de tomar terapia psicologica.</h3>
+                <h2>La importancia de tomar terapia psicologica.</h2>
             <p class="decorado">puede ayudarte a superar bloqueos emocionales y desarrollar estrategias que permitan afrontar tu presente o futuro.
                 Te puede ayudar a definir metas,aclarando quien eres y que es lo que quieres, ayuda a mejorar tu calidad de vida.
                 explorar tus estados de ánimo y comportamientos en un lugar seguro.
             </p>  
         </section>
     </main>
+   <div class="galeria"> 
+        <div class="columna">
+            <img alt="Foto 1" src="./Imagenes/ansiedad.jpeg">
+            <img alt="Foto 2" src="./Imagenes/mindmapping.jpeg">
+            <img alt="Foto 3" src="./Imagenes/prevenciondelsuicidio.jpg">
+        </div>
+        <div class="columna">
+            <img alt="Foto 4" src="./Imagenes/problemasdesaludmental.jpg">
+            <img alt="Foto 5" src="./Imagenes/Salud mental.png">
+            <img alt="Foto 6" src="./Imagenes/salud-mental.jpg">
+        </div>
+        <div class="columna">
+            <img alt="Foto 7" src="./Imagenes/saludmental.png">
+            <img alt="Foto 8" src="./Imagenes/TalleresSaludMental.png">
+            <img alt="Foto 9" src="./Imagenes/estres.jpg">
+        </div>
+   </div>
 </body>
 </html>
