@@ -62,22 +62,43 @@
             </div>
                 <h2 >Lugar Seguro</h2>
             <p class="decorado">Bienvenido somos un lugar seguro donde puedes buscar apoyo si sufres de ansiedad o estres sin importar prejuicios.</p>
-            <p class="decorado">Por favor llena el siguiente formulario para llevar un registro y te ayudemos de manera pronto.</p>
+            <p class="decorado">Por favor llena el siguiente formulario para llevar un registro y te ayudemos de manera pronto.</p>               
             <form id="formulario"action="" method="get">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido">
-                <label for="edad">Edad</label>
-                <input type="number" id="edad" edad="edad">
-                <label for="email">email</label>
-                <input type="email" id="email" email="email">
-                <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" direccion="direccion">
-                <p>Por favor indica cual es la ayuda que buscas</p>
-                <textarea></textarea>
-                <button>Enviar</button>
-                <input type="reset">
+                <ul>
+                    <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="nombre">
+                    </li>
+                    <li>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </li>
+                    <li>
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" edad="edad">
+                    </li>
+                    <li>
+                        <label for="celular">Celular</label>
+                        <input type="number" id="celular" celular="celular">
+                    </li>
+                    <li>
+                        <label for="email">email</label>
+                        <input type="email" id="email" email="email">
+                    </li>
+                    <li>
+                        <p class="selexbox">
+                            Por favor indica las razones por las que buscas apoyo
+                            <input type="checkbox" name="perdida" value="gusta"> Sufro Una Perdida 
+                            <input type="checkbox" name="cambio" value="gusta"> Enfrento Un Cambio En Mi Vida
+                            <input type="checkbox" name="emociones" value="gusta"> Aprender a Manejar Emociones
+                            <input type="checkbox" name="sabotaje" value="gusta"> Te Autosaboteas 
+                            <input type="checkbox" name="trauma" value="gusta"> Situacion Traumatica
+                            <input type="checkbox" name="tu" value="gusta"> Un Espacio Seguro
+                            <input type="checkbox" name="otro" value="gusta"> Otro
+                        </p>
+                        <p class="decorado"><input type="submit" value="Enviar datos"></p> 
+                    </li>
+                </ul>
             </form> 
             <div>
              <!--Lista desordenada-->

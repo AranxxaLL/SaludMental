@@ -60,6 +60,11 @@ img{
     color: black;
     word-spacing: 20px;
 }
+.selexbox{
+    display: inline-block;
+    margin-right: 50px;
+    background-size: cover;
+}
 .linea{
     display: list-item;
     text-align: justify;
