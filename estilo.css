@@ -26,7 +26,7 @@ nav{
 }
 img{
     width: 100%;
-}
+} 
 .galeria{
     display: flex;
     padding: 10px;
@@ -48,7 +48,7 @@ img{
     background-color: palegoldenrod;
 }
 .encabezado{
-    font-size: 3rem;
+    font-size: 5rem;
     color:  #18d012;
     text-align: center;
     background-size: cover;
@@ -85,16 +85,8 @@ img{
     z-index: -1;
     opacity: -0.5;
 }
-.liAnsiedad{
-    font-size: 20px;
-    text-align: left;
-    text-shadow: #fc0 1px 0 10px;
-    color: black;
-}
-.liEstres{
-    font-size: 20px;
-    text-align: right;
-    text-shadow: #fc0 1px 0 10px;
+.parr{
+    font-size: 25px;
     color: black;
 }
 .imgIzquierda{
@@ -112,6 +104,10 @@ img{
     width: 400px;
     border-radius: 40px;
 }
+#contenedor{
+    column-count:2;
+    column-gap:10px;
+}
 #formulario{
     font-size: 2rem;
     text-align: justify;
@@ -121,7 +117,6 @@ img{
 .googleFont{
     font-family: 'Amatic SC', cursive;
 }
-
 @media only screen and (min-width: 320px) and (max-width: 500px)  {
     body{
         background-color: skyblue;
@@ -155,4 +150,3 @@ img{
         font-size: 60px;
     }
 }
-
