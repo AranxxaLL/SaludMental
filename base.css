@@ -1,4 +1,1 @@
-body{
-    background-color: skyblue;
-    color: magenta;
-}
+@import "articulos";
