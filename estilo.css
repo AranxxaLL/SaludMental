@@ -38,6 +38,32 @@ img{
 .columna img{
     margin-top: 10px;
 }
+.dependencias{
+    width: 100%;
+    height: 600%;
+    overflow: hidden;
+}
+.dependencias columna1{
+    display: flex;
+    animation: cambio 30s infinite alternate linear;
+}
+.dependencias img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
 .boton1{
     font-size: 30px;
     color: antiquewhite;
@@ -104,9 +130,28 @@ img{
     width: 400px;
     border-radius: 40px;
 }
-#contenedor{
+
+#columna1 {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:200px;
+    margin-top:10px;
+    background-color:#ffff55;
+} 
+#columna2 {
+    margin-left:220px;
+    margin-right:20px;
+    margin-top:10px;
+    background-color:#ffffbb;
+} 
+/* #contenedor{
     column-count:2;
     column-gap:10px;
+} */
+
+.flexPrueba {
+    display: flex;
 }
 #formulario{
     font-size: 2rem;
